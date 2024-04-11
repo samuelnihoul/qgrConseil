@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"_app.js -> bootstrap/dist/js/bootstrap\":{\"id\":\"_app.js -> bootstrap/dist/js/bootstrap\",\"files\":[\"static/chunks/node_modules_pnpm_bootstrap_5_3_1__popperjs_core_2_11_8_node_modules_bootstrap_dist_js_bootstrap_js.js\"]}}"
