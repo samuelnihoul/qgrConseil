@@ -61,7 +61,7 @@ const Banner = () => {
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-7 order-lg-1 order-2">
               <div className="banner-img magnetic-item">
-                <img src="assets/img/home1/banner-img.jpg" alt="" />
+                <img src="assets/img/home1/banner1.png" alt="" />
               </div>
             </div>
             <div className="col-lg-5 order-lg-2 order-1">
@@ -159,7 +159,7 @@ const Banner = () => {
           onClick={() => setOpen(true)}
           isOpen={isOpen}
           animationSpeed="350"
-          videoId="r4KpWiK08vM"
+          videoId="Ccj80R3iUqE"
           ratio="16:9"
           onClose={() => setOpen(false)}
         />
