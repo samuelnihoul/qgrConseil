@@ -56,10 +56,9 @@ const CoverArea = () => {
             <div className="row">
               <div className="col-lg-12 gap-lg-5 gap-4 d-flex flex-lg-nowrap flex-wrap align-items-start justify-content-between mb-60">
                 <div className="section-title1 one">
-                  <span>Our Cover Area</span>
+                  <span>Domaines d'expertise</span>
                   <h2>
-                    Conduct market research to understand industry trends,
-                    competition, and customer behavior.
+                    Réalisez un audit qualité pour comprendre les enjeux de votre industrie, la compétition et le comportement de vos clients.
                   </h2>
                 </div>
                 <Link legacyBehavior href="/service2">
@@ -138,17 +137,17 @@ const CoverArea = () => {
                     <SwiperSlide className="swiper-slide">
                       <div className="eg-card1">
                         <div className="card-img magnetic-item">
-                          <img src="assets/img/home1/eg-card-img1.jpg" alt="" />
+                          <img src="assets/img/home1/carou1.png" alt="" />
                         </div>
                         <div className="card-content">
-                          <Link legacyBehavior href="/services1">
+                          <Link legacyBehavior href="#">
                             <a>
-                              Finance <span />
+                              Cartographier <span />
                             </a>
                           </Link>
                           <h5>
                             <Link legacyBehavior href="/service-details">
-                              <a>Finance Consulting</a>
+                              <a>Gestion des risques</a>
                             </Link>
                           </h5>
                         </div>
@@ -157,17 +156,17 @@ const CoverArea = () => {
                     <SwiperSlide className="swiper-slide">
                       <div className="eg-card1">
                         <div className="card-img magnetic-item">
-                          <img src="assets/img/home1/eg-card-img2.jpg" alt="" />
+                          <img src="assets/img/home1/carou2.png" alt="" />
                         </div>
                         <div className="card-content">
-                          <Link legacyBehavior href="/services1">
+                          <Link legacyBehavior href="#">
                             <a>
-                              Consulting <span />
+                              Structurer <span />
                             </a>
                           </Link>
                           <h5>
                             <Link legacyBehavior href="/service-details">
-                              <a>Human Resources</a>
+                              <a>Qualité</a>
                             </Link>
                           </h5>
                         </div>
@@ -176,17 +175,17 @@ const CoverArea = () => {
                     <SwiperSlide className="swiper-slide">
                       <div className="eg-card1">
                         <div className="card-img magnetic-item">
-                          <img src="assets/img/home1/eg-card-img3.jpg" alt="" />
+                          <img src="assets/img/home1/carou3.png" alt="" />
                         </div>
                         <div className="card-content">
-                          <Link legacyBehavior href="/services1">
+                          <Link legacyBehavior href="#">
                             <a>
-                              Marketing <span />
+                              Optimiser<span />
                             </a>
                           </Link>
                           <h5>
                             <Link legacyBehavior href="/service-details">
-                              <a>Marketing Research</a>
+                              <a>Amélioration Continue</a>
                             </Link>
                           </h5>
                         </div>
@@ -195,56 +194,17 @@ const CoverArea = () => {
                     <SwiperSlide className="swiper-slide">
                       <div className="eg-card1">
                         <div className="card-img magnetic-item">
-                          <img src="assets/img/home1/eg-card-img4.jpg" alt="" />
+                          <img src="assets/img/home1/carou4.png" alt="" />
                         </div>
                         <div className="card-content">
-                          <Link legacyBehavior href="/services1">
+                          <Link legacyBehavior href="#">
                             <a>
-                              Finance <span />
+                              Accompagner <span />
                             </a>
                           </Link>
                           <h5>
                             <Link legacyBehavior href="/service-details">
-                              <a>Internation Business</a>
-                            </Link>
-                          </h5>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <div className="eg-card1">
-                        <div className="card-img magnetic-item">
-                          <img src="assets/img/home1/eg-card-img6.jpg" alt="" />
-                        </div>
-                        <div className="card-content">
-                          <Link legacyBehavior href="/services1">
-                            <a>
-                              Technology <span />
-                            </a>
-                          </Link>
-                          <h5>
-                            <Link legacyBehavior href="/service-details">
-                              <a>Technology Consulting</a>
-                            </Link>
-                          </h5>
-                        </div>
-                      </div>
-                    </SwiperSlide>
-                    <SwiperSlide className="swiper-slide">
-                      <div className="eg-card1">
-                        <div className="card-img magnetic-item">
-                          <img src="assets/img/home1/eg-card-img5.jpg" alt="" />
-                        </div>
-                        <div className="card-content">
-                          <Link legacyBehavior href="/services1">
-                            <a>
-                              Health Care
-                              <span />
-                            </a>
-                          </Link>
-                          <h5>
-                            <Link legacyBehavior href="/service-detailstml">
-                              <a>Health Care Consult</a>
+                              <a>Gestion de la qualité de transition</a>
                             </Link>
                           </h5>
                         </div>
