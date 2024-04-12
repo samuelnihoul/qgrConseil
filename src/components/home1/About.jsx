@@ -11,15 +11,14 @@ const About = () => {
           <div className="col-xl-6">
             <div className="about-content pr--95">
               <div className="section-title1 two mb-50">
-                <span>About Us</span>
+                <span>À Propos</span>
                 <h2>
-                  A structured and systematic approach to ensure you provide
-                  value to your clients and achieve successful outcomes.
+                  Des valeurs et principes clairs pour un choix éclairé et un service structuré.
                 </h2>
               </div>
-              <Link legacyBehavior href="/about">
+              <Link legacyBehavior href="https://www.linkedin.com/in/florence-luneau-278710b4/">
                 <a className="primary-btn1 btn-hover">
-                  About More
+                  En savoir plus
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={12}
@@ -41,10 +40,16 @@ const About = () => {
             <div className="row g-4">
               <div className="col-sm-5">
                 <div className="award-area">
+                  <h3>Nos Valeurs</h3>
                   <ul>
                     <li>
-                      Summit Award <br />
-                      2023
+                      Pragmatisme<br />
+                    </li>
+                    <li>
+                      Curiosité<br />
+                    </li>
+                    <li>
+                      Créativité<br />
                     </li>
                   </ul>
                   <Link legacyBehavior href="/event-details">
@@ -69,10 +74,14 @@ const About = () => {
               <div className="col-sm-7">
                 <div className="team-card">
                   <div className="content">
-                    <h4>Our Managing Team</h4>
+                    <h3>Notre ADN</h3>
                     <p>
-                      Begin by having an in-depth discussion with the client to
-                      understand their business.
+                      Coconstruire avec vous un système qualité efficient optimisant les outils existants
+                      <br />
+                      <br />
+                      - pour dynamiser la déamrche qualité,<br />
+                      - pour augmenter la satisfaction client,<br />
+                      - pour déployer une stratégie d'amélioration continue.<br />
                     </p>
                   </div>
                   <Link legacyBehavior href="/our-people1">

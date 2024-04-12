@@ -204,7 +204,7 @@ const CoverArea = () => {
                           </Link>
                           <h5>
                             <Link legacyBehavior href="/service-details">
-                              <a>Gestion de la qualité de transition</a>
+                              <a>Gestion de la Qualité des Transitions</a>
                             </Link>
                           </h5>
                         </div>
