@@ -67,12 +67,18 @@ const Banner = () => {
             <div className="col-lg-5 order-lg-2 order-1">
               <div className="banner-right-content pl--95">
                 <h5>
-                  - Vous avez les compétences en interne mais vous souhaitez un regard extérieur,
-                  <br />
-                  - vous ne disposez pas de l'expertise mais vous avez besoin d'un besoin ponctuel en qualité ou en gestion des risques,
-                  <br />
-                  - vous êtes en cours de recrutement et souhaitez voir un référent durant la période de transition.
-                </h5>
+                  <ul>
+                    <li>
+                      • Vous avez les compétences en interne mais vous souhaitez un regard extérieur?
+                    </li >
+                    <li>
+                      • Vous ne disposez pas de l'expertise mais vous avez besoin d'un besoin ponctuel en qualité ou en gestion des risques?
+                    </li>
+                    <li >
+                      • Vous êtes en cours de recrutement et souhaitez voir un référent durant la période de transition?
+                    </li>
+                  </ul>
+                </h5 >
                 <ul className="btn-group">
                   <li className="success-rate">
                     Taux de succès <span>100%</span>

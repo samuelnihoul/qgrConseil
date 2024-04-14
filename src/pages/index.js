@@ -20,15 +20,6 @@ export default function Home() {
       <Banner />
       <CoverArea />
       <About />
-      <GraphtWithImg />
-      <FeatureCard />
-      <HorizontalScrolling />
-      <PeopleSection />
-      <Testimonial />
-      <Blog />
-      <OurPartner />
-      <IndustrialSection />
-      <ContactSection />
       <Footer />
     </>
   );

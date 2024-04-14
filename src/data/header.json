@@ -7,14 +7,14 @@
     },
     {
         "id": "2",
-        "label": "Mon Parcours",
+        "label": "Parcours & Portfolio",
         "link": "/portfolio-single-column",
         "icon": true
     },
     {
         "id": "3",
         "label": "Actualités",
-        "link": "/portfolio-single-column",
+        "link": "/portfolio-single-column2",
         "icon": true
     },
     {

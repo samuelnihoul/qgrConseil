@@ -1,4 +1,0 @@
-header1
-header2
-index
-portofolio-single-column

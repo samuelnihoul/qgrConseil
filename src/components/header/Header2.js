@@ -146,8 +146,8 @@ const Header2 = () => {
                                 <i
                                   onClick={() => toggleSubMenu(subItem.label)}
                                   className={`d-lg-none d-flex bi bi-${state.activeSubMenu === subItem.label
-                                      ? "dash"
-                                      : "plus"
+                                    ? "dash"
+                                    : "plus"
                                     } dropdown-icon `}
                                 />
                               </>
@@ -157,8 +157,8 @@ const Header2 = () => {
                             {subItem.subMenu && (
                               <ul
                                 className={`sub-menu ${state.activeSubMenu === subItem.label
-                                    ? "d-block"
-                                    : ""
+                                  ? "d-block"
+                                  : ""
                                   }`}
                               >
                                 {subItem.subMenu.map((subItem, subIndex) => (
@@ -217,7 +217,7 @@ const Header2 = () => {
               </ul>
               <Link legacyBehavior href="/contact">
                 <a className="primary-btn1 btn-hover">
-                  Get in Touch
+                  📨
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={12}
@@ -337,9 +337,9 @@ const Header2 = () => {
                 </li>
               </ul>
             </div>
-            <Link legacyBehavior href="/contact">
+            <Link legacyBehavior href="mailto:florence.luneau@outlook.fr">
               <a className="primary-btn1 btn-hover">
-                Get in Touch
+                Intéressé.e?
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={12}

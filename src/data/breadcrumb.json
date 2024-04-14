@@ -2,15 +2,15 @@
     {
         "id":"1",
         "path":"/contact",
-        "title":"Contact Us",
-        "bg_img":"assets/img/inner-pages/braadcrumb-bg5.jpg"
+        "title":"Contact",
+        "bg_img":"assets/img/home1/image832.png"
     }
     ,
     {
         "id":"2",
         "path":"/portfolio-single-column",
-        "title":"Single Column",
-        "bg_img":"assets/img/inner-pages/braadcrumb-bg4.jpg"
+        "title":"Parcours & Portfolio",
+        "bg_img":"assets/img/home1/rect858.png"
     }
     ,
     {

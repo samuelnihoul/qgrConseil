@@ -11,9 +11,8 @@ const ContactPage = () => {
             <div className="col-lg-5">
               <div className="single-location mb-50">
                 <div className="title-and-view-btn">
-                  <h4>Sydne, Australia</h4>
-                  <a href="#">
-                    View Map
+                  <h4>Saint-Brandan, France</h4>
+                  <a href="https://www.google.com/maps/place/22800+Saint-Brandan">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={8}
@@ -37,8 +36,7 @@ const ContactPage = () => {
                       </svg>
                     </div>
                     <div className="info">
-                      <a href="tel:05661111985">+880 566 1111 985</a>
-                      <a href="tel:06571111576">+880 657 1111 576</a>
+                      <a href="tel:+33645796089">+33 645 796 089</a>
                     </div>
                   </li>
                   <li>
@@ -53,11 +51,8 @@ const ContactPage = () => {
                       </svg>
                     </div>
                     <div className="info">
-                      <a href="mailto:infoexample@gmail.com">
-                        infoexample@gmail.com
-                      </a>
-                      <a href="mailto:infoexample2@gmail.com">
-                        infoexample2@gmail.com
+                      <a href="mailto:florence.luneau@outlook.fr">
+
                       </a>
                     </div>
                   </li>

@@ -51,10 +51,14 @@ const About = () => {
                     <li>
                       Créativité<br />
                     </li>
+                    <li>
+                      Soutenabilité
+                    </li>
+
                   </ul>
-                  <Link legacyBehavior href="/event-details">
+                  <Link legacyBehavior href="https://harmonia.eco">
                     <a className="explore-btn">
-                      Achievement
+                      Site Web carbone-négatif
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={12}
@@ -79,14 +83,14 @@ const About = () => {
                       Coconstruire avec vous un système qualité efficient optimisant les outils existants
                       <br />
                       <br />
-                      - pour dynamiser la déamrche qualité,<br />
+                      - pour dynamiser la démarche qualité,<br />
                       - pour augmenter la satisfaction client,<br />
                       - pour déployer une stratégie d'amélioration continue.<br />
                     </p>
                   </div>
-                  <Link legacyBehavior href="/our-people1">
+                  <Link legacyBehavior href="/portfolio-single-column">
                     <a className="explore-btn">
-                      Explore More
+                      Voir les résultats
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width={12}
@@ -107,7 +111,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </div >
   );
 };
 

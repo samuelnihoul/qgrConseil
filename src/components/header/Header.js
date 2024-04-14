@@ -39,11 +39,11 @@ function reducer(state, action) {
         ...state,
         isLeftSidebarOpen: !state.isLeftSidebarOpen,
       };
-      case "TOGGLE_LANG":
-        return {
-          ...state,
-          isLang: !state.isLang,
-        };
+    case "TOGGLE_LANG":
+      return {
+        ...state,
+        isLang: !state.isLang,
+      };
     case "TOGGLE_SEARCHBAR":
       return {
         ...state,
@@ -85,7 +85,7 @@ const Header = () => {
               <img
                 alt="image"
                 className="img-fluid"
-                src="assets/img/black-logo.svg"
+                src="assets/img/home1/home1.jpg"
               />
             </a>
           </Link>
@@ -113,9 +113,8 @@ const Header = () => {
                   >
                     <Link legacyBehavior href={link}>
                       <a
-                        className={`drop-down ${
-                          state.activeMenu === label ? "active" : ""
-                        }`}
+                        className={`drop-down ${state.activeMenu === label ? "active" : ""
+                          }`}
                       >
                         {label}
                       </a>
@@ -123,16 +122,14 @@ const Header = () => {
                     {icon && (
                       <i
                         onClick={() => toggleMenu(label)}
-                        className={`bi bi-${
-                          state.activeMenu === label ? "dash" : "plus"
-                        } dropdown-icon`}
+                        className={`bi bi-${state.activeMenu === label ? "dash" : "plus"
+                          } dropdown-icon`}
                       />
                     )}
                     {subMenu && (
                       <ul
-                        className={`sub-menu ${
-                          state.activeMenu === label ? "d-block" : ""
-                        }`}
+                        className={`sub-menu ${state.activeMenu === label ? "d-block" : ""
+                          }`}
                       >
                         {subMenu.map((subItem, subIndex) => (
                           <li
@@ -147,11 +144,10 @@ const Header = () => {
                                 <i className="d-lg-flex d-none bi bi-chevron-right dropdown-icon" />
                                 <i
                                   onClick={() => toggleSubMenu(subItem.label)}
-                                  className={`d-lg-none d-flex bi bi-${
-                                    state.activeSubMenu === subItem.label
-                                      ? "dash"
-                                      : "plus"
-                                  } dropdown-icon `}
+                                  className={`d-lg-none d-flex bi bi-${state.activeSubMenu === subItem.label
+                                    ? "dash"
+                                    : "plus"
+                                    } dropdown-icon `}
                                 />
                               </>
                             ) : (
@@ -159,11 +155,10 @@ const Header = () => {
                             )}
                             {subItem.subMenu && (
                               <ul
-                                className={`sub-menu ${
-                                  state.activeSubMenu === subItem.label
-                                    ? "d-block"
-                                    : ""
-                                }`}
+                                className={`sub-menu ${state.activeSubMenu === subItem.label
+                                  ? "d-block"
+                                  : ""
+                                  }`}
                               >
                                 {subItem.subMenu.map((subItem, subIndex) => (
                                   <li
@@ -254,9 +249,8 @@ const Header = () => {
                 </svg>
               </div>
               <div
-                className={`search-input ${
-                  state.isSearchBarOpen ? "active" : ""
-                }`}
+                className={`search-input ${state.isSearchBarOpen ? "active" : ""
+                  }`}
               >
                 <div className="serch-close" onClick={toggleSearchBar} />
                 <form>
@@ -319,27 +313,12 @@ const Header = () => {
               </div>
               <ul className={`lang-card ${state.isLang ? "active" : ""}`}>
                 <li onClick={toggleLang}>
-                  <a href="#">English</a>
-                </li>
-                <li onClick={toggleLang}>
-                  <a href="#">Deutsch</a>
-                </li>
-                <li onClick={toggleLang}>
-                  <a href="#">Svenska</a>
-                </li>
-                <li onClick={toggleLang}>
-                  <a href="#">اردو</a>
-                </li>
-                <li onClick={toggleLang}>
-                  <a href="#">عربي</a>
-                </li>
-                <li onClick={toggleLang}>
-                  <a href="#">Nederlands</a>
+                  <a href="#">Français</a>
                 </li>
               </ul>
             </div>
             <a href="#" className="header-btn btn-hover">
-              Get in Touch
+              Curieux.se?
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={12}
@@ -355,9 +334,8 @@ const Header = () => {
               <span />
             </a>
             <div
-              className={`sidebar-button mobile-menu-btn ${
-                state.isSidebarOpen ? "active" : ""
-              }`}
+              className={`sidebar-button mobile-menu-btn ${state.isSidebarOpen ? "active" : ""
+                }`}
               onClick={toggleSidebar}
             >
               <span />
