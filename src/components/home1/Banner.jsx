@@ -22,7 +22,7 @@ const Banner = () => {
                 </h1>
               </div>
               <div className="banner-btn magnetic-item">
-                <Link legacyBehavior href="/services1">
+                <Link legacyBehavior href="#about">
                   <a>
                     <div className="bg">
                       <svg
@@ -47,7 +47,7 @@ const Banner = () => {
                           d="M10.1865 1.06237L0 11.2484L0.751627 12L10.9376 1.81347V8.85645H12V0H3.14355V1.06237H10.1865Z"
                         />
                       </svg>{" "}
-                      <br /> Explore <br /> Now
+                      <br /> Découvrir
                     </div>
                   </a>
                 </Link>

@@ -5,7 +5,7 @@ import React from "react";
 const About = () => {
   useButtonHover();
   return (
-    <div className="about-section mb-130">
+    <div id="about" className="about-section mb-130">
       <div className="container-fluid one pl--95">
         <div className="row g-xl-4 gy-5">
           <div className="col-xl-6">

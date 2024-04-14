@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-btm">
         <div className="copyright-area">
           <p>
-            Copyright {new Date().getFullYear()} <a href="#">QGR Conseil</a> | Design By{" "}
+            Copyright {new Date().getFullYear()} <a href="#">QGR Conseil</a> | design by{" "}
             <a href="https://harmonia.eco">harmonia-eko</a>
             {" "}| 1 tonne of carbon per year courtesy of{" "}
             <a href="https://harmonia.eco">harmonia-eko</a>

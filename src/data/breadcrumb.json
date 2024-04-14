@@ -15,9 +15,9 @@
     ,
     {
         "id":"3",
-        "path":"/portfolio-two-column",
-        "title":"Two Column",
-        "bg_img":"assets/img/inner-pages/braadcrumb-bg4.jpg"
+        "path":"/portfolio-single-column2",
+        "title":"Actualités",
+        "bg_img":"assets/img/home1/act.png"
     }
     ,
     {
@@ -209,3 +209,4 @@
         "bg_img":"/assets/img/inner-pages/braadcrumb-bg1.jpg"
     }
 ]
+
