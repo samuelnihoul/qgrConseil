@@ -2,43 +2,43 @@
     {
         "id": "1",
         "img": "assets/img/home1/p1.png",
-        "tag": "Technology",
+        "tag": "Consulting",
         "title": "Technology Assessment"
     },
     {
         "id": "2",
         "img": "assets/img/phospi.png",
-        "tag": "Managemnet",
+        "tag": "Santé",
         "title": " To Change Management"
     },
     {
         "id": "3",
-        "img": "assets/img/inner-pages/portfolio-img3.jpg",
-        "tag": "Technology",
+        "img": "assets/img/phands.png",
+        "tag": "Santé",
         "title": "Technology Assessment"
     },
     {
         "id": "4",
-        "img": "assets/img/inner-pages/portfolio-img4.jpg",
-        "tag": "Marketing",
+        "img": "assets/img/pcow.png",
+        "tag": "Agro-alimentaire",
         "title": "Marketing and Sales Consulting"
     },
     {
         "id": "5",
-        "img": "assets/img/inner-pages/portfolio-img5.jpg",
-        "tag": "Technology",
+        "img": "assets/img/pchicken.png",
+        "tag": "Agro-alimentaire",
         "title": "Digital Transformation Strategy"
     },
     {
         "id": "6",
-        "img": "assets/img/inner-pages/portfolio-img5.jpg",
-        "tag": "Marketing",
+        "img": "assets/img/pwater.png",
+        "tag": "Environnement",
         "title": "Marketing and Sales Consulting"
     },
     {
         "id": "7",
-        "img": "assets/img/inner-pages/portfolio-img5.jpg",
-        "tag": "Technology",
+        "img": "assets/img/home1/p2.png",
+        "tag": "Agro-alimentaire",
         "title": "Digital Transformation Strategy"
     }
     ]
