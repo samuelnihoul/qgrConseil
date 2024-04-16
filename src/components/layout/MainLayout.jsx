@@ -1,6 +1,6 @@
 import React from "react";
 import Header2 from "../header/Header2";
-import Footer2 from "../footer/Footer2";
+import Footer from "../footer/Footer";
 import Breadcrumb from "../common/Breadcrumb";
 import { useRouter } from "next/router";
 
@@ -10,9 +10,9 @@ const MainLayout = ({ children }) => {
   return (
     <>
       <Header2 />
-      <Breadcrumb/> 
+      <Breadcrumb />
       {children}
-      <Footer2 />
+      <Footer />
     </>
   );
 };
