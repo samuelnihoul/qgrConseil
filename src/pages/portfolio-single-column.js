@@ -9,13 +9,16 @@ const PortfolioSingleColumnpage = () => {
         <div className="container">
           <div className="row g-md-4 gy-5">
             <div className="col-md-12">
-              {data.slice(0,5).map((i) => {
+              {data.slice(0, 5).map((i) => {
                 return (
                   <div key={i.id} className="eg-card4 two mb-60">
                     <div className="row g-0">
                       <div className="col-md-6">
-                        <div className="card-img mb-0">
-                          <img src={i.img} alt="" />
+                        <img src={i.img} alt="" className='img-fluid opacity-50' />
+                        <div className="card-img-overlay d-flex align-items-end">
+                          <div className='card-body'>
+                            <p className='card-title'>test</p>
+                          </div>
                         </div>
                       </div>
                       <div className="col-md-6">
