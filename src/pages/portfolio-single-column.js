@@ -14,11 +14,11 @@ const PortfolioSingleColumnpage = () => {
                   <div key={i.id} className="eg-card4 two mb-60">
                     <div className="row g-0">
                       <div className="col-md-6">
-                        <img src={i.img} alt="" className='img-fluid opacity-50' />
-                        <div className="card-img-overlay d-flex align-items-end">
-                          <div className='card-body'>
-                            <p className='card-title'>test</p>
-                          </div>
+                        <div className='card-img mb-0'>
+                          <img src={i.img} alt="" />
+                          <ul className="card-content2">
+                            <li>test</li>
+                          </ul>
                         </div>
                       </div>
                       <div className="col-md-6">
