@@ -8859,9 +8859,10 @@ footer .footer-btm .social-area li a:hover i {
 }
 .eg-card4 .card-content2{
   position:absolute;
-  top:50%;
-  left:25%;
+  top:10%;
+  left:3%;
   z-index: 2;
+  width:46%;
 }
 .eg-card4 .card-content > a {
   color: var(--title-color);

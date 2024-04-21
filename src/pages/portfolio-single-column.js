@@ -17,7 +17,17 @@ const PortfolioSingleColumnpage = () => {
                         <div className='card-img mb-0'>
                           <img src={i.img} alt="" />
                           <ul className="card-content2">
-                            <li>test</li>
+                            {
+                              i.bullets.map(
+                                (a) => {
+                                  return (
+                                    <li>
+                                      {a}
+                                    </li>
+                                  )
+                                }
+                              )
+                            }
                           </ul>
                         </div>
                       </div>

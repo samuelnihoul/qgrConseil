@@ -3,42 +3,56 @@
         "id": "1",
         "img": "assets/img/home1/p1.png",
         "tag": "Consulting",
-        "title": "Conseil et Accompagnement en Amélioration Continue et Gestion des Risques"
+        "bullets":[
+            "Diagnostic et audit qualité (satisfaction client, management de la qualité, processus, risques, ICPE, DUERP)",
+            "Création et mise à jour de Système de Management Intégré (Qualité, Hygiène, Santé, Sécurité et Environnement)",
+            "Accompagnement à la certification (ISO 9001, 14001, HVE, HAS...)",
+            "Conception et diffusion de formations (élaboration d'un cahier des charges fonctionnel et technique, gestion des risques et QHSE, Santé et Sécurité au travail)",
+            "Gestion de projet (élaboration d'un projet de santé)"
+
+        ],
+"title": "Conseil et Accompagnement en Amélioration Continue et Gestion des Risques"
     },
     {
         "id": "2",
         "img": "assets/img/phospi.png",
         "tag": "Santé",
-        "title": "Responsable Qualité en Gestion des risques"
-    },
+        "title": "Responsable Qualité en Gestion des risques",
+        "bullets":[]
+            },
     {
         "id": "3",
         "img": "assets/img/phands.png",
         "tag": "Santé",
-        "title": "Technology Assessment"
+        "title": "Technology Assessment",
+        "bullets":[]
     },
     {
         "id": "4",
         "img": "assets/img/pcow.png",
         "tag": "Agro-alimentaire",
-        "title": "Marketing and Sales Consulting"
+        "title": "Marketing and Sales Consulting",
+        "bullets":[]
     },
     {
         "id": "5",
         "img": "assets/img/pchicken.png",
         "tag": "Agro-alimentaire",
-        "title": "Digital Transformation Strategy"
+        "title": "Digital Transformation Strategy",
+        "bullets":[]
     },
     {
         "id": "6",
         "img": "assets/img/pwater.png",
         "tag": "Environnement",
-        "title": "Marketing and Sales Consulting"
+        "title": "Marketing and Sales Consulting",
+        "bullets":[]
     },
     {
         "id": "7",
         "img": "assets/img/home1/p2.png",
         "tag": "Agro-alimentaire",
-        "title": "Digital Transformation Strategy"
+        "title": "Digital Transformation Strategy",
+        "bullets":[]
     }
     ]
