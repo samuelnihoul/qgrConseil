@@ -9,37 +9,56 @@
             "• Accompagnement à la certification (ISO 9001, 14001, HVE, HAS...)",
             "• Conception et diffusion de formations (élaboration d'un cahier des charges fonctionnel et technique, gestion des risques et QHSE, Santé et Sécurité au travail)",
             "• Gestion de projet (élaboration d'un projet de santé)"
-
         ],
-"title": "Conseil et Accompagnement en Amélioration Continue et Gestion des Risques"
+        "title": "Conseil et Accompagnement en Amélioration Continue et Gestion des Risques"
     },
     {
         "id": "2",
         "img": "assets/img/phospi.png",
         "tag": "Santé",
         "title": "Responsable Qualité en Gestion des risques",
-        "bullets":[]
+        "bullets":[
+"• Mise à jour du système qualité, gestion des évènements indésirables, des plaintes et réclamations patients, du Document Unique d'Évaluation des Risques Professionnels, du Plan de Continuité d'Activité.", 
+"• Préparation et suivi des audits internes et externes (Certification ISO 9001- v2015, Inspections ARS, Certification HAS).",
+"• Préparation et animation de la Commission Des Usagers, des Comités de Retour d'EXpériences et des groupes de travail internes.",
+"• Formation qualité et gestion de projet auprès du personnel.",
+"• Correspondant local DPO"
+        ]
             },
     {
         "id": "3",
         "img": "assets/img/phands.png",
         "tag": "Santé",
-        "title": "Technology Assessment",
-        "bullets":[]
+        "title": "Coordinatrice qualité en cancérologie",
+        "bullets":[
+            "• Proposition, conception et réalisation d'évaluations qualité du parcours patient en cancérologie",
+            "• Synthétisation et communication des résultats auprès des professionels concernés",
+            "• Accompagnement des professionels à la résolution des problèmes",
+            "• Développement de l'utilisation d'outils numériques de partage",
+            "• Sensibilisation des professionels au RGPD",
+            "• Préparation et animation du comité de pilotage, de focus-group et de groupes de travail"
+        ]
     },
     {
         "id": "4",
         "img": "assets/img/pcow.png",
         "tag": "Agro-alimentaire",
-        "title": "Marketing and Sales Consulting",
-        "bullets":[]
+        "title": "Consultante qualité production animale",
+        "bullets":[
+            "• Appui méthodologique à la préparation à la certification ISO 9001-V2008 d'un couvoir",
+            "• Accompagnement technique de l'équipe de pré-audit et audit initial",
+            "• Proposition du plan d'actions correctives et préventives à la suite de l'audit"
+        ]
     },
     {
         "id": "5",
         "img": "assets/img/pchicken.png",
         "tag": "Agro-alimentaire",
-        "title": "Digital Transformation Strategy",
-        "bullets":[]
+        "title": "Responsable qualité-sécurité agro-alimentaire",
+        "bullets":[
+            "• Conception et suivi du système qualité, des HACCP, gestion des non-conformités, des réclamations clients et des relations avec les services vétérinaires. Préparation et suivi des audits BRC, IFS",
+            "• Rédaction du document unique, suivi des CHSCT et enquêtes acceidents de travail"
+        ]
     },
     {
         "id": "6",
