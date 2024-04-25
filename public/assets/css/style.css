@@ -8855,17 +8855,21 @@ footer .footer-btm .social-area li a:hover i {
   min-height: 280px;
   -o-object-fit: cover;
      object-fit: cover;
-     opacity:0.5;
+     opacity:0.4;
 }
 .eg-card4 .card-content2{
   position:absolute;
-  top:3px;
-  left:3px;
-  z-index: 2;
-  font-size:1rem;
-  overflow-y:scroll;
-  max-width:450px;
-  padding:10px;
+  top:0px;
+  left:0px;
+  z-index: 1;
+  width:50%;
+  padding:40px;
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  justify-content:center;
+  font-weight:bold;
+  gap:20px;
 }
 .eg-card4 .card-content > a {
   color: var(--title-color);
@@ -8942,7 +8946,7 @@ footer .footer-btm .social-area li a:hover i {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: -1;
-  opacity:0.5;
+  opacity:0.1;
 }
 .eg-card4.two .card-content .title-and-btn {
   display: block;
