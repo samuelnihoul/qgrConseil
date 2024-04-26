@@ -8871,6 +8871,7 @@ footer .footer-btm .social-area li a:hover i {
   font-weight:bold;
   gap:20px;
 }
+
 .eg-card4 .card-content > a {
   color: var(--title-color);
   font-family: var(--font-montserrat);
@@ -8895,6 +8896,11 @@ footer .footer-btm .social-area li a:hover i {
   .eg-card4 .card-content .title-and-btn {
     flex-direction: column;
     align-items: flex-start;
+  }
+  .eg-card4 .card-content2{
+    width:100%;
+    overflow-y:scroll;
+    height:50%;
   }
 }
 .eg-card4 .card-content .title-and-btn h4 {
