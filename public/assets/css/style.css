@@ -7616,6 +7616,12 @@ footer .footer-btm .social-area li a:hover i {
 /*=====================================
  22. Home2 Portfolio Section
 ========================================*/
+.linkedin{
+  display:grid;
+  /* border:solid; */
+  gap:100px;
+  grid-template-columns:auto auto;
+}
 .project-card {
   position: relative;
 }
