@@ -12,7 +12,11 @@ const PortfolioSingleColumnpage = () => {
             {
               posts.map(
                 (p) => {
-                  return (<div dangerouslySetInnerHTML={{ __html: p }}></div>)
+                  return (
+                    <iframe src={p} className='linkedin-post'>
+
+                    </iframe>
+                  )
                 })
             }
           </div>
