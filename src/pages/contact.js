@@ -95,7 +95,7 @@ const ContactPage = () => {
           <div className="row g-lg-4 gy-5">
             <div className="col-lg-5">
               <div className="section-title1 two">
-                <h2>If Your Need Any Consult, How can We Help You?</h2>
+                <h2>Besoin d'un RDV? Besoin d'aide?</h2>
                 <p>
                   These problems can range from operational inefficiencies to
                   strategic planning issues.
@@ -108,13 +108,13 @@ const ContactPage = () => {
                   <div className="row">
                     <div className="col-lg-6 mb-30">
                       <div className="form-inner">
-                        <label>Name*</label>
+                        <label>Nom*</label>
                         <input type="text" placeholder="Daniel Scoot" />
                       </div>
                     </div>
                     <div className="col-lg-6 mb-30">
                       <div className="form-inner">
-                        <label>Work Email*</label>
+                        <label>Email Professionnel*</label>
                         <input
                           type="email"
                           placeholder="infoexample@gmail.com"
