@@ -1,7 +1,27 @@
 import React from "react";
 import Breadcrumb from "../components/common/Breadcrumb";
 import MainLayout from "../components/layout/MainLayout";
+const sendData = async (formData) => {
+      try {
+        const response = await fetch('/api/mailer', {
+          method: 'POST',
+          body: formData,
+        });
 
+        const data = await response.json();
+        
+        // Handle response
+        if (response.ok) {
+          console.log(data.message); // Log success message
+          // Clear form fields if needed
+          contactForm.reset();
+        } else {
+          console.error(data.message); // Log error message
+        }
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    };
 const ContactPage = () => {
   return (
     <MainLayout>
@@ -80,7 +100,7 @@ const ContactPage = () => {
             <div className="col-lg-7">
               <div className="company-map">
                 <iframe
-                  src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_MAPS}&q=Eiffel+Tower,Paris+France`}
+                  src={`https://www.google.com/maps/embed/v1/place?key=${process.env.NEXT_PUBLIC_MAPS}&q=Saint-Brandan+France`}
                   allowFullScreen
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
@@ -97,19 +117,18 @@ const ContactPage = () => {
               <div className="section-title1 two">
                 <h2>Besoin d'un RDV? Besoin d'aide?</h2>
                 <p>
-                  These problems can range from operational inefficiencies to
-                  strategic planning issues.
+	Quelle que soit votre problématique qualité, je suis là pour vous apporter des réponses et conseils, dès le premier email.
                 </p>
               </div>
             </div>
             <div className="col-lg-7">
               <div className="contact-form-area two">
-                <form>
+                <form action="sendData">
                   <div className="row">
                     <div className="col-lg-6 mb-30">
                       <div className="form-inner">
                         <label>Nom*</label>
-                        <input type="text" placeholder="Daniel Scoot" />
+                        <input name='name'type="text" placeholder="Daniel Scoot" />
                       </div>
                     </div>
                     <div className="col-lg-6 mb-30">
@@ -118,25 +137,27 @@ const ContactPage = () => {
                         <input
                           type="email"
                           placeholder="infoexample@gmail.com"
+name="email"
                         />
                       </div>
                     </div>
                     <div className="col-lg-6 mb-30">
                       <div className="form-inner">
-                        <label>Company Name*</label>
+                        <label>Raison Sociale</label>
                         <input type="text" placeholder="Consult Pro" />
                       </div>
                     </div>
                     <div className="col-lg-6 mb-30">
                       <div className="form-inner">
-                        <label>Consulting Area*</label>
-                        <input type="text" placeholder="Dealership" />
+                        <label>Thème de la demande*</label>
+                        <input name="theme"type="text" placeholder="Dealership" />
                       </div>
                     </div>
                     <div className="col-lg-12 mb-15">
                       <div className="form-inner">
-                        <label>Write Your Massage*</label>
+                        <label>Écrivez votre message*</label>
                         <textarea
+name="message"
                           placeholder="What’s on your mind"
                           defaultValue={""}
                         />
@@ -154,8 +175,7 @@ const ContactPage = () => {
                           className="form-check-label"
                           htmlFor="contactCheck"
                         >
-                          Please save my name, email address for the next time I
-                          message with aploxn.
+			J'accepte que mes informations soient enregistrées
                         </label>
                       </div>
                     </div>

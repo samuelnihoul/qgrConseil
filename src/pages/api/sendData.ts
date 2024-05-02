@@ -2,8 +2,9 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import nodemailer from 'nodemailer';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
-  if (req.method === 'POST') {
-    const { name, email, message } = req.body;
+  if (req.method === 'GET') {
+	console.log('sending email...')
+    const { name, email, message ,theme} = req.body;
 
     let transporter = nodemailer.createTransport({
       host: 'smtp.gmail.com', // replace with your SMTP server
@@ -20,7 +21,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         from: '"harmonia-eko" <samuelnihoul@gmail.com>',
         // to: 'florence.luneau@outlook.fr', // list of receivers
         to: 'samuelnihoul@gmail.com',
-        subject: 'New message from contact form', // Subject line
+        subject:theme, // Subject line
         text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`, // plain text body
       });
 
