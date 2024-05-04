@@ -1,4 +1,4 @@
-import useButtonHover from "@/src/hooks/useButtonHover";
+import useButtonHover from "@/src/hooks/useButtonHover.js";
 import Link from "next/link";
 import React from "react";
 

@@ -4,7 +4,7 @@ import nodemailer from 'nodemailer';
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === 'GET') {
 	console.log('sending email...')
-    const { name, email, message ,theme} = req.body;
+    const { name, email, message ,theme} = req.query;
 
     let transporter = nodemailer.createTransport({
       host: 'smtp.gmail.com', // replace with your SMTP server
