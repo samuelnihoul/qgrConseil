@@ -1,27 +1,6 @@
 import React from "react";
 import Breadcrumb from "../components/common/Breadcrumb";
 import MainLayout from "../components/layout/MainLayout";
-const sendData = async (formData) => {
-      try {
-        const response = await fetch('/api/sendData', {
-          method: 'POST',
-          body: formData,
-        });
-
-        const data = await response.json();
-        
-        // Handle response
-        if (response.ok) {
-          console.log(data.message); // Log success message
-          // Clear form fields if needed
-          contactForm.reset();
-        } else {
-          console.error(data.message); // Log error message
-        }
-      } catch (error) {
-        console.error('Error:', error);
-      }
-    };
 const ContactPage = () => {
   return (
     <MainLayout>
@@ -123,7 +102,7 @@ const ContactPage = () => {
             </div>
             <div className="col-lg-7">
               <div className="contact-form-area two">
-                <form action="/api/sendData">
+                <form action={"/api/sendData"}>
                   <div className="row">
                     <div className="col-lg-6 mb-30">
                       <div className="form-inner">

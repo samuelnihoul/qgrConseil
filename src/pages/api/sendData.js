@@ -23,8 +23,7 @@ export default async function handler(req , res ) {
         subject:theme, // Subject line
         text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`, // plain text body
       });
-
-res.writeHead(302,{Location:'/contact'})
+      res.status(200).json({ status: 'Ok', message: 'Email sent successfully' });
     } catch (err) {
       console.error(err);
       res.status(500).json({ status: 'Error', message: 'There was a problem sending the email.' });
