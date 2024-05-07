@@ -3,7 +3,7 @@ import Breadcrumb from "../components/common/Breadcrumb";
 import MainLayout from "../components/layout/MainLayout";
 const sendData = async (formData) => {
       try {
-        const response = await fetch('/api/mailer', {
+        const response = await fetch('/api/sendData', {
           method: 'POST',
           body: formData,
         });
@@ -123,7 +123,7 @@ const ContactPage = () => {
             </div>
             <div className="col-lg-7">
               <div className="contact-form-area two">
-                <form action="sendData">
+                <form action="/api/sendData">
                   <div className="row">
                     <div className="col-lg-6 mb-30">
                       <div className="form-inner">
