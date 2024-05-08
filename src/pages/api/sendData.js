@@ -23,7 +23,33 @@ export default async function handler(req , res ) {
         subject:theme, // Subject line
         text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`, // plain text body
       });
-      res.status(200).json({ status: 'Ok', message: 'Email sent successfully' });
+
+  const successPageHtml = `
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Form Submitted Successfully</title>
+    </head>
+    <body>
+      <h1>Form Submitted Successfully!</h1>
+      <p>Your form has been successfully submitted.</p>
+      <button onclick="goBack()">Go Back to Contact Page</button>
+      <script>
+        function goBack() {
+          window.location.href = '/contact'; // Redirect to the contact page
+        }
+      </script>
+    </body>
+    </html>
+  `;
+
+  // Set the content type to HTML
+  res.setHeader('Content-Type', 'text/html');
+  
+  // Send the HTML success page as the response
+  res.status(200).send(successPageHtml);
     } catch (err) {
       console.error(err);
       res.status(500).json({ status: 'Error', message: 'There was a problem sending the email.' });
