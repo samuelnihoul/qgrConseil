@@ -18,8 +18,8 @@ export default async function handler(req , res ) {
     try {
       await transporter.sendMail({
         from: '"harmonia-eko" <samuelnihoul@gmail.com>',
-        // to: 'florence.luneau@outlook.fr', // list of receivers
-        to: 'samuelnihoul@gmail.com',
+        to: 'florence.luneau@outlook.fr', // list of receivers
+        //to: 'samuelnihoul@gmail.com',
         subject:theme, // Subject line
         text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`, // plain text body
       });
