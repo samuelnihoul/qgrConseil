@@ -58,12 +58,12 @@ const CoverArea = () => {
                 <div className="section-title1 one">
                   <span>Domaines d'expertise</span>
                   <h2>
-                    Réalisez un audit qualité pour comprendre les enjeux de votre industrie, la compétition et le comportement de vos clients.
+                    Vous accompagner dans la conception et la mise en place d'une stratégie de progrès pour votre organisation
                   </h2>
                 </div>
                 <Link legacyBehavior href="/service2">
                   <a className="explore-btn">
-                    Explore Area
+                    Explorer
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={12}
