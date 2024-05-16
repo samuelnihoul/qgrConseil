@@ -165,7 +165,7 @@ const Banner = () => {
           onClick={() => setOpen(true)}
           isOpen={isOpen}
           animationSpeed="350"
-          videoId="Ccj80R3iUqE"
+          videoId="Rqsn09ALau8"
           ratio="16:9"
           onClose={() => setOpen(false)}
         />
