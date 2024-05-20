@@ -2,6 +2,7 @@ import React, { useMemo } from "react";
 import SwiperCore, { Autoplay, EffectFade, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
+import FloatingCard from "../common/FloatingCard";
 SwiperCore.use([Pagination, Autoplay, EffectFade]);
 
 const CoverArea = () => {
@@ -140,16 +141,14 @@ const CoverArea = () => {
                           <img src="assets/img/home1/carou1.png" alt="" />
                         </div>
                         <div className="card-content">
-                          <Link legacyBehavior href="#">
+                          <FloatingCard>
                             <a>
                               Cartographier <span />
                             </a>
-                          </Link>
-                          <h5>
-                            <Link legacyBehavior href="/service-details">
-                              <a>Gestion des risques</a>
-                            </Link>
-                          </h5>
+                            <h5>
+                              <a>Gestion des risques &#x2198;</a>
+                            </h5>
+                          </FloatingCard>
                         </div>
                       </div>
                     </SwiperSlide>
