@@ -12,6 +12,7 @@ import OurPartner from "../components/home1/OurPartner";
 import IndustrialSection from "../components/home1/IndustrialSection";
 import ContactSection from "../components/home1/ContactSection";
 import Footer from "../components/footer/Footer";
+import Partner from "../components/common/Partner";
 
 export default function Home() {
   return (
@@ -20,6 +21,8 @@ export default function Home() {
       <Banner />
       <CoverArea />
       <About />
+      <Testimonial />
+      <Partner />
       <Footer />
     </>
   );
