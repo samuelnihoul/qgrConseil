@@ -15,7 +15,7 @@ const FloatingCard = ({ children, p }) => {
             </div>
             {isVisible && (
                 <div className="floating-card">
-                    <ul>
+                    <ul style={{ paddingTop: '30px' }}>
                         {p.map(
                             e => {
                                 return (<li>•{' '}{e}</li>)

@@ -146,7 +146,7 @@ const CoverArea = () => {
                               Cartographier <span />
                             </a>
                             <h5>
-                              <a>Gestion des risques &#x2198;</a>
+                              <a style={{ cursor: 'pointer' }}>Gestion des risques &#x2198;</a>
                             </h5>
                           </FloatingCard>
                         </div>
@@ -163,7 +163,7 @@ const CoverArea = () => {
                               Structurer <span />
                             </a>
                             <h5>
-                              <a>Qualité &#x2198;</a>
+                              <a style={{ cursor: 'pointer' }}>Qualité &#x2198;</a>
                             </h5>
                           </FloatingCard>
                         </div>
@@ -180,7 +180,7 @@ const CoverArea = () => {
                               Optimiser<span />
                             </a>
                             <h5>
-                              <a>Amélioration Continue &#x2198;</a>
+                              <a style={{ cursor: 'pointer' }}>Amélioration Continue &#x2198;</a>
                             </h5></FloatingCard>
                         </div>
                       </div>
@@ -192,11 +192,11 @@ const CoverArea = () => {
                         </div>
                         <div className="card-content">
                           <FloatingCard p={["Gestion du quotidien qualité,", "tutorat de la montée en compétence qualité des collaborateurs,", "accompagnement à la gestion de crise,", "management relais."]}>
-                            <a>
+                            <a >
                               Accompagner <span />
                             </a>
                             <h5>
-                              <a>Gestion de la Qualité des Transitions &#x2198;</a>
+                              <a style={{ cursor: 'pointer' }}>Gestion de la Qualité des Transitions &#x2198;</a>
                             </h5></FloatingCard>
                         </div>
                       </div>
