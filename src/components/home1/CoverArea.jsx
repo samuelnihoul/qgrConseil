@@ -141,7 +141,7 @@ const CoverArea = () => {
                           <img src="assets/img/home1/carou1.png" alt="" />
                         </div>
                         <div className="card-content">
-                          <FloatingCard>
+                          <FloatingCard p={["Conception,", "réalisation d'audit diagnostic,", "synthèse des constats,", "présentation des préconisations,", "proposition d'un plan d'action."]}>
                             <a>
                               Cartographier <span />
                             </a>
@@ -158,16 +158,14 @@ const CoverArea = () => {
                           <img src="assets/img/home1/carou2.png" alt="" />
                         </div>
                         <div className="card-content">
-                          <Link legacyBehavior href="#">
+                          <FloatingCard p={["Évaluation des écarts au référentiel,", "création et mise à jour des indicateurs,", "réalisation d'audit à blanc,", "appui lors de la visite d'audit de certification,", "proposition de réponse aux recommendations émises lors de l'audit."]}>
                             <a>
                               Structurer <span />
                             </a>
-                          </Link>
-                          <h5>
-                            <Link legacyBehavior href="/service-details">
-                              <a>Qualité</a>
-                            </Link>
-                          </h5>
+                            <h5>
+                              <a>Qualité &#x2198;</a>
+                            </h5>
+                          </FloatingCard>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -177,16 +175,13 @@ const CoverArea = () => {
                           <img src="assets/img/home1/carou3.png" alt="" />
                         </div>
                         <div className="card-content">
-                          <Link legacyBehavior href="#">
+                          <FloatingCard p={["Audit du système qualité existant,", "détection des axes d'amélioration,", "création d'un plan d'action et d'indicateurs,", "organisation et suivi des retours d'expérience."]}>
                             <a>
                               Optimiser<span />
                             </a>
-                          </Link>
-                          <h5>
-                            <Link legacyBehavior href="/service-details">
-                              <a>Amélioration Continue</a>
-                            </Link>
-                          </h5>
+                            <h5>
+                              <a>Amélioration Continue &#x2198;</a>
+                            </h5></FloatingCard>
                         </div>
                       </div>
                     </SwiperSlide>
@@ -196,16 +191,13 @@ const CoverArea = () => {
                           <img src="assets/img/home1/carou4.png" alt="" />
                         </div>
                         <div className="card-content">
-                          <Link legacyBehavior href="#">
+                          <FloatingCard p={["Gestion du quotidien qualité,", "tutorat de la montée en compétence qualité des collaborateurs,", "accompagnement à la gestion de crise,", "management relais."]}>
                             <a>
                               Accompagner <span />
                             </a>
-                          </Link>
-                          <h5>
-                            <Link legacyBehavior href="/service-details">
-                              <a>Gestion de la Qualité des Transitions</a>
-                            </Link>
-                          </h5>
+                            <h5>
+                              <a>Gestion de la Qualité des Transitions &#x2198;</a>
+                            </h5></FloatingCard>
                         </div>
                       </div>
                     </SwiperSlide>

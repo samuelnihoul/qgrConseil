@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './FloatingCard.module.css'; // Import the CSS file
 
-const FloatingCard = ({ children }) => {
+const FloatingCard = ({ children, p }) => {
     const [isVisible, setIsVisible] = useState(false);
 
     const toggleCard = () => {
@@ -10,13 +10,18 @@ const FloatingCard = ({ children }) => {
 
     return (
         <div className="floating-card-container">
-            <div onClick={toggleCard}>
+            <div onClick={toggleCard} className='card-content'>
                 {children}
             </div>
             {isVisible && (
                 <div className="floating-card">
-                    <h2>Floating Card</h2>
-                    <p>This is a floating card that can be toggled on and off.</p>
+                    <ul>
+                        {p.map(
+                            e => {
+                                return (<li>•{' '}{e}</li>)
+                            }
+                        )}
+                    </ul>
                 </div>
             )}
         </div>
