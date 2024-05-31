@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import SwiperCore, { Autoplay, EffectFade, Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Link from "next/link";
-SwiperCore.use([Pagination, Autoplay,Navigation, EffectFade]);
+SwiperCore.use([Pagination, Autoplay, Navigation, EffectFade]);
 const Testimonial = () => {
   const slideSetting = useMemo(() => {
     return {
@@ -34,10 +34,10 @@ const Testimonial = () => {
         <div className="row">
           <div className="col-lg-4">
             <div className="testimonial-img-with-logo">
-              <img src="assets/img/home1/testi-left-01.jpg" alt="" />
-              <div className="logo">
+              <img src="assets/img/home1/test_left_02.jpg" alt="" />
+              {/* <div className="logo">
                 <img src="assets/img/home1/white-logo.svg" alt="" />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-lg-8">
@@ -46,83 +46,40 @@ const Testimonial = () => {
                 <div className="swiper-wrapper">
                   <SwiperSlide className="swiper-slide">
                     <div className="testimonial-card">
-                      <span>Great Consulting!</span>
+                      <span>Travail qualitatif et bonne disponibilité!</span>
                       <p>
-                        Consultants can help organizations navigate change,
-                        optimize their operations, and stay competitive in a
-                        rapidly evolving business environment.
+                        La CPTS du Pays de REDON a fait appel à QGR Conseil pour les accompagner dans l’écriture de son projet de santé. La collaboration a été d’une grande qualité, nous permettant de soumettre à l’ARS un projet de qualité, précis, détaillé et pertinent au vu du contexte populationnel de notre territoire. La disponibilité de Mme LUNEAU, la qualité de son travail ont été très appréciées. Encore un grand merci !
                       </p>
                       <div className="author-area">
                         <div className="author-img">
-                          <img src="assets/img/home1/testi-oth-01.png" alt="" />
+                          <img src="assets/img/amoutel.webp" alt="" />
                         </div>
                         <div className="content">
-                          <h6>Mr. Daniel Scoot</h6>
-                          <span>Froxio, CEO</span>
+                          <h6>Dr A. MOUTEL</h6>
+                          <span>CPTS du pays de Redon, Juin 2021</span>
                         </div>
                       </div>
                     </div>
                   </SwiperSlide>
                   <SwiperSlide className="swiper-slide">
                     <div className="testimonial-card">
-                      <span>Great Consulting!</span>
+                      <span>Force de proposition et pertinence</span>
                       <p>
-                        You can adjust the length and style of the line to match
-                        the overall design and formatting of your document. Some
-                        other divider options include dashes, stars, or even a
-                        graphical element.
+                        Réseau Cristal a sollicité Mme LUNEAU pour réaliser des audits sur la satisfaction clients et sur le management de la qualité sur nos 60 sites vétérinaires adhérents. Cela nous a permis d’avoir une vision globale et un regard extérieur.
+                        On a été satisfait de son approche humaine et elle a su rendre plus accessible la notion de qualité au sein des entreprises. Mme LUNEAU a bien respecté notre cahier des charges tout en étant force de proposition pour la création d’un nouvel audit.
                       </p>
                       <div className="author-area">
                         <div className="author-img">
-                          <img src="assets/img/home1/testi-oth-02.png" alt="" />
+                          <img src="assets/mretureau.webp" alt="Dr. M. Retureau" />
                         </div>
                         <div className="content">
-                          <h6>Mr. Rakhab Uddin</h6>
-                          <span>Nurio, CEO</span>
+                          <h6>Dr M. RETUREAU</h6>
+                          <span>Réseau CRISTAL, Avril 2024</span>
                         </div>
                       </div>
                     </div>
                   </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="testimonial-card">
-                      <span>Great Consulting!</span>
-                      <p>
-                        The information you might include in a Managing
-                        Director's profile or information list typically
-                        consists of the individual's background, experience, and
-                        responsibilities within a company.
-                      </p>
-                      <div className="author-area">
-                        <div className="author-img">
-                          <img src="assets/img/home1/testi-oth-03.png" alt="" />
-                        </div>
-                        <div className="content">
-                          <h6>Mrs. Flurance Miyagi</h6>
-                          <span>Froxio, CEO</span>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
-                  <SwiperSlide className="swiper-slide">
-                    <div className="testimonial-card">
-                      <span>Great Consulting!</span>
-                      <p>
-                        The specific services offered by business consultants
-                        can vary widely depending on the consultant's expertise
-                        and the needs of the client. Consultants typically work
-                        closely with their clients.
-                      </p>
-                      <div className="author-area">
-                        <div className="author-img">
-                          <img src="assets/img/home1/testi-oth-04.png" alt="" />
-                        </div>
-                        <div className="content">
-                          <h6>Mr. Thomas Robert</h6>
-                          <span>Maxcrio, HR</span>
-                        </div>
-                      </div>
-                    </div>
-                  </SwiperSlide>
+
                 </div>
               </Swiper>
               <div className="slider-btn-area">
@@ -181,8 +138,11 @@ const Testimonial = () => {
               </div>
               <div className="review-area">
                 <div className="review-name">
-                  <span>Review On</span>
-                  <img src="assets/img/home1/clutch-logo.svg" alt="" />
+                  <a href='https://trustpilot.com'>
+
+                    <span>Soyez le premier à laisser un avis</span>
+                    <img src="assets/img/Trustpilot-logo.png" width='150px' alt="" />
+                  </a>
                 </div>
                 <div className="review">
                   <ul>
@@ -199,10 +159,10 @@ const Testimonial = () => {
                       <i className="bi bi-star-fill" />
                     </li>
                     <li>
-                      <i className="bi bi-star-half" />
+                      <i className="bi bi-star-fill" />
                     </li>
                   </ul>
-                  <span>(50 reviews)</span>
+                  <span>(0 reviews)</span>
                 </div>
               </div>
             </div>
