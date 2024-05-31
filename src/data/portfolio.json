@@ -87,7 +87,9 @@
 		"img": "assets/img/home1/p2.png",
 		"tag": "Agro-alimentaire",
 		"title": "Auditrice en Label Rouge",
-		"bullets": ["• Évaluation de la conformité au standard Label Rouge"],
+		"bullets": [
+			"• Évaluation de la conformité au standard Label Rouge"
+		],
 		"date": "1998, Aucert",
 		"lien": "#"
 	}
