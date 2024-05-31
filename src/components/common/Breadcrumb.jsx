@@ -27,6 +27,7 @@ const Breadcrumb = () => {
         }}
       >
         <div className="company-name">QGR</div>
+        <div className="company-name" style={{ fontSize: '2rem' }}>crédit photo : Christelle ANTOINE</div>
         <div className="container-fluid one pl--95">
           <div className="row">
             <div className="col-lg-12">
