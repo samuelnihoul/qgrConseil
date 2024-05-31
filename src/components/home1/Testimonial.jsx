@@ -29,7 +29,7 @@ const Testimonial = () => {
     };
   }, []);
   return (
-    <div className="testimonial-section mb-130">
+    <div className="testimonial-section mb-130" id="testimonial">
       <div className="container-fluid one">
         <div className="row">
           <div className="col-lg-4">

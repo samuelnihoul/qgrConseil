@@ -88,7 +88,7 @@ const About = () => {
                       - pour déployer une stratégie d'amélioration continue.<br />
                     </p>
                   </div>
-                  <Link legacyBehavior href="/portfolio-single-column">
+                  <Link legacyBehavior href="#testimonial">
                     <a className="explore-btn">
                       Voir les résultats
                       <svg

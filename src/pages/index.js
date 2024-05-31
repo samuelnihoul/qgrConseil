@@ -21,7 +21,7 @@ export default function Home() {
       <Banner />
       <CoverArea />
       <About />
-      <Testimonial />
+      <Testimonial id='testimonials' />
       <Partner />
       <Footer />
     </>
