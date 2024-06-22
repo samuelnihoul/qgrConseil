@@ -158,7 +158,7 @@ const CoverArea = () => {
                           <img src="assets/img/home1/carou2.png" alt="" />
                         </div>
                         <div className="card-content">
-                          <FloatingCard p={["Évaluation des écarts au référentiel,", "création et mise à jour des indicateurs,", "réalisation d'audit à blanc,", "appui lors de la visite d'audit de certification,", "proposition de réponse aux recommendations émises lors de l'audit."]}>
+                          <FloatingCard p={["Évaluation des écarts au référentiel,", "création et mise à jour des indicateurs,", "réalisation d'audit à blanc,", "appui lors de la visite d'audit de certification,", "proposition de réponse aux recommandations émises lors de l'audit."]}>
                             <a>
                               Structurer <span />
                             </a>
