@@ -62,9 +62,9 @@ const CoverArea = () => {
                     Vous accompagner dans la conception et la mise en place d'une stratégie de progrès pour votre organisation
                   </h2>
                 </div>
-                <Link legacyBehavior href="/service2">
+                <Link legacyBehavior href="/contact">
                   <a className="explore-btn">
-                    Explorer
+                    Intéressé.e? Envoyez-nous un message.
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={12}
