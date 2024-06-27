@@ -27,7 +27,7 @@ const Breadcrumb = () => {
         }}
       >
         <div className="company-name">QGR</div>
-        <div className="company-name" style={{ fontSize: '2rem' }}>crédit photo : Christelle ANTOINE</div>
+        {pathname == '/portfolio-single-column' && < div className="company-name" style={{ fontSize: '2rem' }}>crédit : Christelle ANTHOINE photographe</div>}
         <div className="container-fluid one pl--95">
           <div className="row">
             <div className="col-lg-12">
@@ -45,7 +45,7 @@ const Breadcrumb = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div >
     </>
   );
 };
