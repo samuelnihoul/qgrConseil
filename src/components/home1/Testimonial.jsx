@@ -7,7 +7,7 @@ const Testimonial = () => {
   const slideSetting = useMemo(() => {
     return {
       slidesPerView: 1,
-      speed: 1500,
+      speed: 5000,
       spaceBetween: 25,
       loop: true,
       effect: "fade", // Use the fade effect
