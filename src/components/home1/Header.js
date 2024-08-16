@@ -199,7 +199,7 @@ const Header = () => {
               </ul>
               <Link legacyBehavior href="/contact">
                 <a className="primary-btn1 btn-hover">
-                  Get in Touch
+                  Briser la glace
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={12}
@@ -313,7 +313,7 @@ const Header = () => {
               </ul>
             </div>
             <a href="#" className="header-btn btn-hover">
-              Get in Touch
+              Briser la glace
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={12}

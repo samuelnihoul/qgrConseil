@@ -268,7 +268,7 @@ const Header3 = () => {
               </ul>
               <Link legacyBehavior href="/contact">
                 <a className="primary-btn1 btn-hover">
-                  Get in Touch
+                  Briser la glace
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={12}
@@ -397,7 +397,7 @@ const Header3 = () => {
             </div>
             <Link legacyBehavior href="/contact">
               <a className="primary-btn2 btn-hover">
-                Get in Touch
+                Briser la glace
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width={12}
