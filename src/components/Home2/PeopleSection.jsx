@@ -58,7 +58,7 @@ const PeopleSection = () => {
                           </svg>
                         </div>
                         <div className="content">
-                          <a href="tel:+9165678653">+91 656 786 53</a>
+                          <a href="tel:+9165678653">+33 645 796 089</a>
                         </div>
                       </div>
                       <ul className="social-icon">
@@ -104,7 +104,7 @@ const PeopleSection = () => {
                           </svg>
                         </div>
                         <div className="content">
-                          <a href="tel:+9165678653">+91 656 786 53</a>
+                          <a href="tel:+9165678653">+33 645 796 089</a>
                         </div>
                       </div>
                       <ul className="social-icon">
@@ -150,7 +150,7 @@ const PeopleSection = () => {
                           </svg>
                         </div>
                         <div className="content">
-                          <a href="tel:+9165678653">+91 656 786 53</a>
+                          <a href="tel:+9165678653">+33 645 796 089</a>
                         </div>
                       </div>
                       <ul className="social-icon">
@@ -196,7 +196,7 @@ const PeopleSection = () => {
                           </svg>
                         </div>
                         <div className="content">
-                          <a href="tel:+9165678653">+91 656 786 53</a>
+                          <a href="tel:+9165678653">+33 645 796 089</a>
                         </div>
                       </div>
                       <ul className="social-icon">
