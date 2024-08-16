@@ -39,7 +39,7 @@ function reducer(state, action) {
         ...state,
         isLeftSidebarOpen: !state.isLeftSidebarOpen,
       };
-      case "TOGGLE_LANG":
+    case "TOGGLE_LANG":
       return {
         ...state,
         isLang: !state.isLang,
@@ -99,7 +99,7 @@ const Header3 = () => {
         <ul className="topbar-right">
           <li>Sun-Tue (9:00 am-7.00 pm)</li>
           <li>
-            <a href="mailto:infoaploxn@gmail.com">
+            <a href="mailto:florence.luneau@outlook.fr">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width={14}
@@ -110,7 +110,7 @@ const Header3 = () => {
                   <path d="M12.8333 0H1.16668C0.523223 0 0 0.498307 0 1.11112V8.88891C0 9.50169 0.523223 10 1.16668 10H12.8334C13.4768 10 14 9.50169 14 8.88888V1.11112C14 0.498307 13.4768 0 12.8333 0ZM1.16668 0.555547H12.8334C12.8763 0.555547 12.9142 0.570469 12.9545 0.578906C11.9445 1.4593 8.59532 4.37732 7.42328 5.38302C7.33157 5.46169 7.18375 5.55555 7.00003 5.55555C6.8163 5.55555 6.66848 5.46169 6.57647 5.38276C5.40455 4.37721 2.05518 1.45904 1.0453 0.578958C1.08571 0.570521 1.12366 0.555547 1.16668 0.555547ZM0.583324 8.88888V1.11112C0.583324 1.05669 0.600551 1.00732 0.615973 0.957578C1.38904 1.63143 3.72594 3.66747 5.24122 4.97979C3.73086 6.21539 1.39336 8.32602 0.614141 9.03367C0.600387 8.98643 0.583324 8.94023 0.583324 8.88888ZM12.8333 9.44445H1.16668C1.12008 9.44445 1.07866 9.42898 1.03515 9.41909C1.84034 8.68805 4.19273 6.56529 5.67654 5.35635C5.8461 5.50294 6.0159 5.64928 6.18595 5.79536C6.42636 6.00208 6.70775 6.11112 7 6.11112C7.29225 6.11112 7.57364 6.00206 7.81375 5.79562C7.98389 5.64945 8.1538 5.50303 8.32347 5.35635C9.80736 6.56516 12.1594 8.68776 12.9648 9.41909C12.9213 9.42898 12.88 9.44445 12.8333 9.44445ZM13.4167 8.88888C13.4167 8.94021 13.3996 8.98643 13.3859 9.03367C12.6064 8.32565 10.2691 6.21526 8.7588 4.97982C10.2741 3.6675 12.6107 1.63164 13.384 0.957526C13.3994 1.00727 13.4167 1.05667 13.4167 1.11109V8.88888Z" />
                 </g>
               </svg>
-              infoaploxn@gmail.com
+              florence.luneau@outlook.fr
             </a>
           </li>
           <li>
@@ -165,9 +165,8 @@ const Header3 = () => {
                   >
                     <Link legacyBehavior href={link}>
                       <a
-                        className={`drop-down ${
-                          state.activeMenu === label ? "active" : ""
-                        }`}
+                        className={`drop-down ${state.activeMenu === label ? "active" : ""
+                          }`}
                       >
                         {label}
                       </a>
@@ -175,16 +174,14 @@ const Header3 = () => {
                     {icon && (
                       <i
                         onClick={() => toggleMenu(label)}
-                        className={`bi bi-${
-                          state.activeMenu === label ? "dash" : "plus"
-                        } dropdown-icon`}
+                        className={`bi bi-${state.activeMenu === label ? "dash" : "plus"
+                          } dropdown-icon`}
                       />
                     )}
                     {subMenu && (
                       <ul
-                        className={`sub-menu ${
-                          state.activeMenu === label ? "d-block" : ""
-                        }`}
+                        className={`sub-menu ${state.activeMenu === label ? "d-block" : ""
+                          }`}
                       >
                         {subMenu.map((subItem, subIndex) => (
                           <li
@@ -199,11 +196,10 @@ const Header3 = () => {
                                 <i className="d-lg-flex d-none bi bi-chevron-right dropdown-icon" />
                                 <i
                                   onClick={() => toggleSubMenu(subItem.label)}
-                                  className={`d-lg-none d-flex bi bi-${
-                                    state.activeSubMenu === subItem.label
+                                  className={`d-lg-none d-flex bi bi-${state.activeSubMenu === subItem.label
                                       ? "dash"
                                       : "plus"
-                                  } dropdown-icon `}
+                                    } dropdown-icon `}
                                 />
                               </>
                             ) : (
@@ -211,11 +207,10 @@ const Header3 = () => {
                             )}
                             {subItem.subMenu && (
                               <ul
-                                className={`sub-menu ${
-                                  state.activeSubMenu === subItem.label
+                                className={`sub-menu ${state.activeSubMenu === subItem.label
                                     ? "d-block"
                                     : ""
-                                }`}
+                                  }`}
                               >
                                 {subItem.subMenu.map((subItem, subIndex) => (
                                   <li
@@ -241,7 +236,7 @@ const Header3 = () => {
               <ul className="topbar-right">
                 <li>Sun-Tue (9:00 am-7.00 pm)</li>
                 <li>
-                  <a href="mailto:infoaploxn@gmail.com">
+                  <a href="mailto:florence.luneau@outlook.fr">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={14}
@@ -252,7 +247,7 @@ const Header3 = () => {
                         <path d="M12.8333 0H1.16668C0.523223 0 0 0.498307 0 1.11112V8.88891C0 9.50169 0.523223 10 1.16668 10H12.8334C13.4768 10 14 9.50169 14 8.88888V1.11112C14 0.498307 13.4768 0 12.8333 0ZM1.16668 0.555547H12.8334C12.8763 0.555547 12.9142 0.570469 12.9545 0.578906C11.9445 1.4593 8.59532 4.37732 7.42328 5.38302C7.33157 5.46169 7.18375 5.55555 7.00003 5.55555C6.8163 5.55555 6.66848 5.46169 6.57647 5.38276C5.40455 4.37721 2.05518 1.45904 1.0453 0.578958C1.08571 0.570521 1.12366 0.555547 1.16668 0.555547ZM0.583324 8.88888V1.11112C0.583324 1.05669 0.600551 1.00732 0.615973 0.957578C1.38904 1.63143 3.72594 3.66747 5.24122 4.97979C3.73086 6.21539 1.39336 8.32602 0.614141 9.03367C0.600387 8.98643 0.583324 8.94023 0.583324 8.88888ZM12.8333 9.44445H1.16668C1.12008 9.44445 1.07866 9.42898 1.03515 9.41909C1.84034 8.68805 4.19273 6.56529 5.67654 5.35635C5.8461 5.50294 6.0159 5.64928 6.18595 5.79536C6.42636 6.00208 6.70775 6.11112 7 6.11112C7.29225 6.11112 7.57364 6.00206 7.81375 5.79562C7.98389 5.64945 8.1538 5.50303 8.32347 5.35635C9.80736 6.56516 12.1594 8.68776 12.9648 9.41909C12.9213 9.42898 12.88 9.44445 12.8333 9.44445ZM13.4167 8.88888C13.4167 8.94021 13.3996 8.98643 13.3859 9.03367C12.6064 8.32565 10.2691 6.21526 8.7588 4.97982C10.2741 3.6675 12.6107 1.63164 13.384 0.957526C13.3994 1.00727 13.4167 1.05667 13.4167 1.11109V8.88888Z" />
                       </g>
                     </svg>
-                    infoaploxn@gmail.com
+                    florence.luneau@outlook.fr
                   </a>
                 </li>
                 <li>
@@ -317,9 +312,8 @@ const Header3 = () => {
                 </svg>
               </div>
               <div
-                className={`search-input ${
-                  state.isSearchBarOpen ? "active" : ""
-                }`}
+                className={`search-input ${state.isSearchBarOpen ? "active" : ""
+                  }`}
               >
                 <div className="serch-close" onClick={toggleSearchBar} />
                 <form>
@@ -420,9 +414,8 @@ const Header3 = () => {
               </a>
             </Link>
             <div
-              className={`sidebar-button mobile-menu-btn ${
-                state.isSidebarOpen ? "active" : ""
-              }`}
+              className={`sidebar-button mobile-menu-btn ${state.isSidebarOpen ? "active" : ""
+                }`}
               onClick={toggleSidebar}
             >
               <span />
