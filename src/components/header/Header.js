@@ -98,7 +98,7 @@ const Header = () => {
               <div className="mobile-logo-wrap">
                 <Link legacyBehavior href="/">
                   <a>
-                    <img alt="image" src="assets/img/black-logo.svg" />
+                    <img alt="image" src="assets/img/home1/home1.jpg" />
                   </a>
                 </Link>
               </div>
